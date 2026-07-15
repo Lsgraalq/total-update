@@ -1,5 +1,7 @@
 # total-update
 
+> **Created: September 2021** — early learning project (beginner Python practice).
+
 A collection of small practice scripts in Python — solutions to basic programming exercises.
 Each script is standalone: it reads input from `input.txt` and writes the result to `output.txt`.
 
