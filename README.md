@@ -1,31 +1,31 @@
 # total-update
 
-Набор небольших учебных скриптов на Python — решения базовых задач по программированию.
-Каждый скрипт самостоятельный, читает данные из `input.txt` и записывает результат в `output.txt`.
+A collection of small practice scripts in Python — solutions to basic programming exercises.
+Each script is standalone: it reads input from `input.txt` and writes the result to `output.txt`.
 
-## Как запустить
+## Running
 
-Положи рядом со скриптом файл `input.txt` с входными данными и запусти:
+Put an `input.txt` file next to the script and run it:
 
 ```bash
 python a.py
 ```
 
-Результат появится в `output.txt`.
+The result will be written to `output.txt`.
 
-## Скрипты
+## Scripts
 
-| Файл    | Что делает |
-|---------|------------|
-| `a.py`  | Расчётная задача: по размерам параллелепипеда и параметрам покрытия считает нужное количество материала (с учётом запаса/скидки) и округляет вверх. |
-| `c.py`  | Проверка корректности времени: для 5 строк вида `часы минуты секунды` выводит `YES`, если время валидно (`0–23`, `0–59`, `0–59`), иначе `NO`. |
-| `d.py`  | Обработка числа по условиям чётности: в зависимости от знака и чётности выводит `YES`/`NO` и изменённое значение. |
-| `g.py`  | Сортировка: считывает список целых чисел и выводит его отсортированным по возрастанию. |
+| File    | What it does |
+|---------|--------------|
+| `a.py`  | Calculation task: from the dimensions of a box and coverage parameters, computes the amount of material needed (accounting for a reserve/discount) and rounds up. |
+| `c.py`  | Time validation: for 5 lines of `hours minutes seconds`, prints `YES` if the time is valid (`0–23`, `0–59`, `0–59`), otherwise `NO`. |
+| `d.py`  | Number processing by parity: depending on the sign and parity, prints `YES`/`NO` and the modified value. |
+| `g.py`  | Sorting: reads a list of integers and prints it sorted in ascending order. |
 
-## Формат ввода
+## Input format
 
-Каждый скрипт ожидает свой формат в `input.txt` — см. разбор входных строк в начале соответствующего файла.
+Each script expects its own format in `input.txt` — see how the input lines are parsed at the top of the corresponding file.
 
-## Стек
+## Stack
 
 - Python 3
